@@ -1,0 +1,10 @@
+[1.5] Jawaban :
+
+1. Tidak ada kesalahan kode
+2. Tidak ada. Kegunaan dari meta dokumen adalah untuk memberikan informasi tambahan 
+   tentang kondisi atau isi dari halaman website atau blog pada robot di search engine.
+3. thead : Mengelompokkan isi header pada sebuah table
+   tbody : Mengelompokkan isi body pada sebuah table
+   tr	 : Tag untuk membuat baris dalam sebuah tabel
+   th	 : Tag untuk membuat sebuah sel header tabel
+   td	 : Tag untuk membuat sel dalam sebuah tabel
