@@ -1,0 +1,17 @@
+/* Error: Expected identifier.
+ *   ,
+ * 1 | .title {     ​border​: ​4px​ solid black;     ​text-align​: center;     ​padding​: ​60px​;     ​font-family​: sans;     .slogan {         ​font-size​: ​18px​;         ​color​: rgba(​0​,​0​,​0​,​0.3​);     } } .title {     ​border​: ​4px​ solid black;     ​text-align​: center;     ​padding​: ​60px​;     ​font-family​: sans;     .slogan {         ​font-size​: ​18px​;         ​color​: rgba(​0​,​0​,​0​,​0.3​);     } } 
+ *   |                                                                                                                                                                                                     ^
+ *   '
+ *   nesting.scss 1:197  root stylesheet */
+
+body::before {
+    font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+        "Droid Sans Mono", monospace, monospace;
+    white-space: pre;
+    display: block;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-bottom: 2px solid black;
+    content: "Error: Expected identifier.\a   \2577 \a 1 \2502  .title {     \200b border\200b : \200b 4px\200b  solid black;     \200b text-align\200b : center;     \200b padding\200b : \200b 60px\200b ;     \200b font-family\200b : sans;     .slogan {         \200b font-size\200b : \200b 18px\200b ;         \200b color\200b : rgba(\200b 0\200b ,\200b 0\200b ,\200b 0\200b ,\200b 0.3\200b );     } } .title {     \200b border\200b : \200b 4px\200b  solid black;     \200b text-align\200b : center;     \200b padding\200b : \200b 60px\200b ;     \200b font-family\200b : sans;     .slogan {         \200b font-size\200b : \200b 18px\200b ;         \200b color\200b : rgba(\200b 0\200b ,\200b 0\200b ,\200b 0\200b ,\200b 0.3\200b );     } } \a   \2502                                                                                                                                                                                                      ^\a   \2575 \a   nesting.scss 1:197  root stylesheet";
+}

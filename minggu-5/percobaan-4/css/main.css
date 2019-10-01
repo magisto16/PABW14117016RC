@@ -1,0 +1,17 @@
+/* Error: Undefined operation "​100 % ​".
+ *   ,
+ * 4 |     ​font​: ​100%​ Helvetica, sans-serif;
+ *   |             ^^^^^^
+ *   '
+ *   src\sass\main.scss 4:13  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: Undefined operation "\200b 100 % \200b ".\a   \2577 \a 4 \2502      \200b font\200b : \200b 100%\200b  Helvetica, sans-serif;\d\a   \2502              ^^^^^^\a   \2575 \a   src\\sass\\main.scss 4:13  root stylesheet';
+}

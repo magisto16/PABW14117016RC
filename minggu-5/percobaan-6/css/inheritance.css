@@ -1,0 +1,21 @@
+@charset "UTF-8";
+.message {
+  @​extend​ %message-shared;
+}
+
+.success {
+  @​extend​ %message-shared;
+  ​border-color​: green;
+}
+
+.error {
+  @​extend​ %message-shared;
+  ​border-color​: red;
+}
+
+.warning {
+  @​extend​ %message-shared;
+  ​border-color​: orange;
+}
+
+/*# sourceMappingURL=inheritance.css.map */
