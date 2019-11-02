@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <title>ADD DATA</title>
+</head>
+
+<body>
+    <h1>ADD DATA</h1>
+    <form action="add_result.php" method="post" enctype="multipart/form-data">
+        <label>Student ID : </label><br>
+        <input type="text" name="id_student"><br>
+        <label>Name : </label><br>
+        <input type="text" name="name"><br>
+        <label>Address : </label><br>
+        <input type="text" name="address"><br>
+        <label>Department</label>
+        <select name="dept">
+            <option value="Communication">Comunication</option>
+            <option value="Elka">Elka</option>
+            <option value="IT">IT</option>
+            <option value="Elin">Elin</option>
+        </select><br>
+        <label>Image : </label><br>
+        <input type="file" name="image"><br>
+        <br>
+        <button type="submit" name="submit">ADD DATA</button>
+    </form>
+</body>
+
+</html>
